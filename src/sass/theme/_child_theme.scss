@@ -1,0 +1,20 @@
+// Matches the page title font weight.
+.editor-post-title .editor-post-title__input{
+	font-size: $h1-font-size;
+	font-weight: $headings-font-weight;
+}
+
+.vbox-next, .vbox-prev {
+    z-index: 9999 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.event-area.home-five {
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.event-area.home-five .container {
+	flex: 1;
+}
