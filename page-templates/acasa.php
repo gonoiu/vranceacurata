@@ -76,20 +76,6 @@ get_header();
 		<?php endwhile;?>
 	<?php endif;?>
 </div>
-<!--==================================================-->
-<!-- End Echofy Hero Area -->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!-- Start Echofy Text Area -->
-<!--==================================================-->
-
-<!-- Modal TLS -->
-<!-- Trigger Link -->
-
-
-<!-- Modal Structure -->
 
 
 <section class="echofy-text-section"  data-cues="zoomIn">
@@ -116,8 +102,8 @@ get_header();
 				<div class="content-box">
 					<h6 class="title"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/assets/images/home1/text-shape.png" alt="">Deseuri electrice, electronica si electrocasnice (DEEE)</span></h6>
 				</div>
-			<!-- </div>
-			<div class="marquee-block">  -->
+				<!-- </div>
+				<div class="marquee-block">  -->
 				<!-- content-box -->
 				<div class="content-box">
 					<h6 class="title"><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/assets/images/home1/text-shape.png" alt="">Deseuri reciclabile din sticla</span></h6>
@@ -196,7 +182,30 @@ get_header();
 <!-- End Echofy About Area -->
 <!--==================================================-->
 
-
+<div class="brand-area">
+	<div class="container">
+		<div class="row" id="brand-bg">
+			<div class="col-lg-12">
+				<div class="brand-content">
+					<h4>Accesati </h4>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="brand-content">
+							<h4>
+								<a id="alb" href="/polaris">Incheiere contracte Persoane Fizice</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="single-shape">
+		   <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/assets/images/home1/brand-shape.png" alt="">
+	    </div>
+	</div>
+</div>
+<!--==================================================-->
 
 <!--==================================================-->
 <!-- Strat Echofy Service Area -->
@@ -555,5 +564,17 @@ get_header();
 <!--==================================================-->
 <!-- End Echofy Brand Area-->
 <!--==================================================-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('#alb').hover(function(){
+		$(this).css("color", "grey");
+		}, function(){
+		$(this).css("color", "white");
+		});
+	});
+</script>
 
 <?php get_footer();?>

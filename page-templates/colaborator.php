@@ -337,14 +337,77 @@ get_header('page');
 			<div class="col-lg-6 col-md-6"><?php get_field('harta_garaj'); ?></div>
 			<div class="col-lg-6 col-md-6"><?php get_field('harta_punct_lucru'); ?></div>
 		</div>
-
-
 	</div>
 
 
 
 </div>
 
+<div class="testimonial-area home-five">
+	<div class="container">
+		<div class="row">
+            <div class="col-lg-12 text-center">
+				<div class="section-title center">
+					<h4><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/assets/images/home1/section-shape.png" alt="">Testimonial</h4>
+					<h1>Impresii și recenzii</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="testi-list-5 owl-carousel">
+					<?php if(have_rows('recenzii')):?>
+						<?php while(have_rows('recenzii')): the_row();
+							$prenume = get_sub_field('prenume');
+							$video = get_sub_field('video');
+							$recenzie = get_sub_field('recenzie');
+							$stele = get_sub_field('stele');
+							$img = get_sub_field('poza');
+						?>
+							<div class="col-lg-12">
+								<div class="single-testimonial-box">
+									<div class="testimonial-content">
+										<p><?php echo $recenzie; ?></p>
+										<div class="testi-rating">
+											<ul>
+											<?php echo implode (', ', $stele); ?>
+												<li><i class="bi bi-star-fill"></i></li>
+												<li><i class="bi bi-star-fill"></i></li>
+												<li><i class="bi bi-star-fill"></i></li>
+												<li><i class="bi bi-star-fill"></i></li>
+												<li><i class="bi bi-star-fill"></i></li>
+											</ul>
+										</div>
+										<div class="testi-quote">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/assets/images/home5/testi-quote.png" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="testi-author">
+									<?php if(!empty($img)):?>
+										<div class="testi-author-thumb">
+											<img src="<?php echo $img; ?>" alt="<?php echo $prenume; ?>" width="50px" height="auto">
+										</div>
+									<?php endif; ?>
+									<div class="testi-content">
+										<p><?php echo $prenume; ?></p>
+										<?php if(!empty($video)):?>
+											<div class="about-video">
+												<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=XRaKberQE00" style="color: #4aae44">
+													<strong>Vezi Video</strong>
+												</a>
+											</div>
+										<?php endif; ?>
+									</div>
+								</div>
+							</div>	
+						<?php endwhile;?>
+					<?php endif;?>
+			    			
+			</div>
+		</div>
+	</div>
+</div>
+
 <?
-get_footer();
+	get_footer();
 ?>

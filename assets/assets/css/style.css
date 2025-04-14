@@ -604,7 +604,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 124px 0 125px;
+    padding: 124px 0 50px;
 }
 
 .about-thumb {
@@ -2618,13 +2618,13 @@ transform: rotate(360deg);
 /*---=================================
    <!--Echofy Faqs Area Home Two-->
 ==================================---*/
-.faqs-area {
+/* .faqs-area {
     background: url(../images/home2/faqs-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 124px 0 196px;
     overflow: hidden;
-}
+} */
 
 .faqs-left {
     position: relative;
@@ -2666,9 +2666,9 @@ transform: rotate(360deg);
     position: relative;
     cursor: pointer;
     margin: 0;
-    padding: 19px 25px 19px 27px;
+    padding: 22px 25px 19px 27px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     border: 1px solid #cccccc9e;
     border-radius: 5px;
     z-index: 2;
@@ -5789,7 +5789,7 @@ span.price {
 =========================================================---*/
 .home-five.testimonial-area {
     background: #fff;
-    padding: 111px 0 120px;
+    padding: 50px 0 50px;
 }
 
 .home-five .single-testimonial-box {
@@ -6297,7 +6297,7 @@ span.price {
 }
 /*faqs Area Inner css*/
 .faqs-area.inner {
-    padding: 110px 0 124px;
+    padding: 50px 0 124px;
 }
 
 
@@ -7414,7 +7414,7 @@ span.widget-sidber-contact-gmail i {
 /*blog Grid Css*/
 
 .blog-grid-area {
-    padding: 123px 0 103px;
+    padding: 123px 0 50px;
 }
 
 /*blog List Area Css*/

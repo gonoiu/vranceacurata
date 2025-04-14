@@ -13,7 +13,12 @@
 				<div class="header-menu">
 					<ul>
 						<li><a href="/">Acasa</a></li>
-						<li><a href="/despre-noi">Despre Noi</a></li>
+						<li class="menu-item-has-children"><a href="javascript:void(0)">Despre noi<i class="fas fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="/despre-noi">Despre Adi Vrancea Curata</a></li>
+								<li><a href="/constientizare">Constientizare</a></li>
+							</ul>
+						</li>
 						<li class="menu-item-has-children"><a href="javascript:void(0)">Documente<i class="fas fa-chevron-down"></i></a>
                            <ul class="sub-menu">
 					      		<li><a href="/statut-act-constitutiv">Statut / Act Constitutiv</a></li>

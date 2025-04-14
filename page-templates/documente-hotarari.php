@@ -60,7 +60,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -221,7 +221,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -272,7 +272,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -323,7 +323,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -374,7 +374,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -425,7 +425,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -476,7 +476,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -527,7 +527,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -578,7 +578,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -629,7 +629,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
@@ -680,7 +680,7 @@ get_header('page');
                                                         <td><?php if(!empty($titlu)):  ?><?php echo $titlu; ?><?php endif;?></td>
                                                         <td>
                                                             <?php if(!empty($fisier)):  ?>
-                                                                <a href="<?php echo $fisier; ?>" target="_blank">
+                                                                <a href="<?//php echo $fisier; ?>" target="_blank">
                                                                     <i class="fa fa-file-pdf-o" aria-hidden="true" style="color: #4aae44"></i>
                                                                 </a>
                                                             <?php endif;?>
